@@ -1,0 +1,89 @@
+.descripcion-text{
+    font-size: 15px;
+    font-family: logo;
+    color: gray;
+}
+
+
+.Equipo-Innovate {
+    width: 390px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+#equipo-breve{
+    text-align: center;
+}
+
+#h2-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    color: #007b00;
+    width: 100%;
+
+    border-radius: 14px;
+    font-size: 25px;
+    padding: 3px;
+}
+
+.general-row3 {
+    border-radius: 20px;
+    border: solid black 1px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes example {
+    0%   {box-shadow:0px 0px 7px #005200;}
+    25%  {box-shadow:0px 0px 7px #005c00;}
+    50%  {box-shadow:0px 0px 7px #006600;}
+    100% {box-shadow:0px 0px 7px #007000;}
+  }
+
+#p-descripcion{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    font-size: small;
+    font-family: monospace;
+}
+
+.button {
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background-color: #151515;
+    color: #eee;
+    border-radius: 7px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+  }
+
+    @media (max-width:590px){
+        #carouselExampleAutoplaying{
+            width: 300px;
+        }
+    }
+
+    @media (max-width:768px){
+        #p-descripcion {
+            width: 300px;
+            text-align: center;
+        }
+    }
